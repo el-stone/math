@@ -9,19 +9,19 @@ It includes utilities for addition, subtraction, multiplication, division, power
 Install the package using npm:
 
 ```bash
-npm install @el_stone/math
+npm install @el-stone/math/math
 ```
 
 Using Yarn:
 
 ```bash
-yarn add @el_stone/math
+yarn add @el-stone/math/math
 ```
 
 Using pnpm:
 
 ```bash
-pnpm add @el_stone/math
+pnpm add @el-stone/math/math
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ import {
   abs,
   round,
   ceil,
-} from "@el_stone/math";
+} from "@el-stone/math/math";
 ```
 
 ### Addition
@@ -133,7 +133,7 @@ ceil(4.1);
 This package is written in TypeScript and provides built-in type definitions.
 
 ```ts
-import { sum } from "@el_stone/math";
+import { sum } from "@el-stone/math/math";
 
 const result: number = sum(10, 20);
 
@@ -157,7 +157,7 @@ console.log(result);
 The package can also be used with JavaScript:
 
 ```js
-import { sum, multiply } from "@el_stone/math";
+import { sum, multiply } from "@el-stone/math/math";
 
 console.log(sum(10, 20));
 console.log(multiply(5, 4));
@@ -194,7 +194,7 @@ If you would like to improve the package, add new mathematical functions, fix bu
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/@el_stone/math.git
+git clone https://github.com/your-username/@el-stone/math/math.git
 ```
 
 Install dependencies:

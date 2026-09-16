@@ -1,5 +1,5 @@
 {
-  "name": "@el_stone/math",
+  "name": "@el-stone/math",
   "version": "0.1.0",
   "description": "A lightweight TypeScript library providing simple and reusable mathematical utility functions.",
   "type": "module",
