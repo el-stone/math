@@ -1,0 +1,51 @@
+{
+  "name": "@el_stone/math",
+  "version": "0.1.0",
+  "description": "A lightweight TypeScript library providing simple and reusable mathematical utility functions.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm run build"
+  },
+  "keywords": [
+    "math",
+    "typescript",
+    "javascript",
+    "math-utils",
+    "utilities",
+    "arithmetic",
+    "calculator",
+    "numbers",
+    "sum",
+    "subtract",
+    "multiply",
+    "divide",
+    "power",
+    "sqrt",
+    "rounding"
+  ],
+  "author": "El Stone",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "tsdown": "^0.23.0",
+    "typescript": "^7.0.2"
+  },
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  }
+}
